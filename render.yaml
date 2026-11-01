@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: esp32-cctv-server
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
